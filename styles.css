@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(187, 223, 216);
+}
+h1 {
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #281864;
+  background-color: rgb(126, 156, 57);
+  border: 0.5rem solid;
+  text-decoration: underline;
+}
+#top-nav .main-items {
+  display: flex;
+  justify-content: start;
+  margin: 0 10px;
+  flex-grow: 1;
+}
+
+#top-nav {
+  background-color: rgb(126, 156, 57);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#top-nav li {
+  list-style-type: none;
+  font-size: 2rem;
+  display: block;
+}
+
+#top-nav li a {
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #281864;
+  padding: 10px 20px;
+}
+
+#top-nav li a:hover {
+  color: #fff;
+  background-color: green;
+}
+
+#top-nav .sub-items {
+  display: flex;
+}
+.images .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-width: 0px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.images .container div {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.images .container div:nth-child(1) {
+  align-self: center;
+}
+
+.images .container div:nth-child(2) {
+  align-self: center;
+}
+
+.images .container div:nth-child(3) {
+  align-self: center;
+}
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.main-images {
+  width: 300px;
+  height: 200px;
+}
+
+p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-weight: 250;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #281864;
+  text-decoration: underline;
+}
+
+ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lemonchiffon;
+  color: #281864;
+  float: right;
+}
+
+.adoption {
+  background-color: rgb(211, 183, 211);
+  margin: auto;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 30px;
+}
