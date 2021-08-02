@@ -1,0 +1,90 @@
+
+nav, #welcome {
+    font-size: 2em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+nav, .submenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.submenu {
+    margin: 30px 0px 20px 0px;
+}
+
+
+ 
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro {
+    text-align: center;
+    padding-top: 75px;
+}
+
+#gif-description {
+    text-align: left;
+}
+
+h1, nav {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: navy;
+    text-align: center;
+    height: 100px;
+}
+
+p {
+    color: navy;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: grey
+}
+
+a:active {
+    color: white;
+    background-color: grey;
+}
+
+img {
+    margin: 10px 0px 10px 0px;
+}
+
+.logo-white {
+    background-color: #16161D
+}
+
+ #mockup-intro {
+     text-align: left;
+ }
+
+footer {
+    text-align: center;
+    left: 0;
+	right: 0; 
+    bottom: 0;
+    margin: 50px 0px 10px 0px;
+    color: navy;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#lely-original, #lely-edited, #grave-original, #histories-original, #histories-edited {
+    height: 50%;
+    width: 50%;
+}
+
